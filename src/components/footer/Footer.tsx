@@ -28,9 +28,20 @@ const Footer = () => {
               </CustomText>
             </li>
           ))}
+          <div className="ms-5">
+            <FacebookIcon className="mx-2" style={{ cursor: "pointer" }} />
+            <InstagramIcon className="mx-2" style={{ cursor: "pointer" }} />
+          </div>
         </ul>
       </SectionWrapper>
       <img src={footerWaves} alt="waves-img" className="w-100" />
+      <CustomText fontSize={12} style={{ color: "#787878" }}>
+        {" "}
+        &#169; 2025, Domigrafikuje
+      </CustomText>
+      <CustomText fontSize={12} style={{ color: "#787878" }} className="mb-4">
+        Developed by Jakub Rezler Frontend Services
+      </CustomText>
     </div>
   );
 };
